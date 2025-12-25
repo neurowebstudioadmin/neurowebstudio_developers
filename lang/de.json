@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "NeuroWeb Studio | Webentwicklung & Design der nächsten Generation",
+    "description": "NeuroWeb Studio erstellt moderne Websites, E-Commerce-Plattformen und Webanwendungen. Maßgeschneiderte Entwicklung mit innovativem Design und fortschrittlicher SEO.",
+    "keywords": "Webentwicklung, E-Commerce, Design, SEO, Webanwendungen, neuroweb studio"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Leistungen",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt",
+    "allServices": "Alle Leistungen",
+    "backHome": "Zurück zur Startseite"
+  },
+  "hero": {
+    "title": "NeuroWeb Studio",
+    "subtitle": "Digitale Innovation & Fortschrittliches Design",
+    "description": "Wir verwandeln Ihre Vision in digitale Realität mit modernsten Technologien, neurowissenschaftlichem Design und SEO-Strategien, die konkrete Ergebnisse liefern.",
+    "cta1": "Pakete Entdecken",
+    "cta2": "Angebot Anfordern",
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "clients": "Zufriedene Kunden",
+      "support": "Technischer Support"
+    }
+  },
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "NeuroWeb Studio verbindet Neurowissenschaften, Design und Technologie, um digitale Erlebnisse zu schaffen, die begeistern und konvertieren.",
+    "heading": "Die Wissenschaft des digitalen Erfolgs",
+    "text1": "Wir sind ein Team aus Entwicklern, Designern und SEO-Experten, das neurowissenschaftliche Prinzipien anwendet, um Schnittstellen zu schaffen, die Aufmerksamkeit erregen und zum Handeln anregen.",
+    "text2": "Unser einzigartiger Ansatz kombiniert Farbpsychologie, Informationsarchitektur und digitale Überzeugungstechniken, um die Konversion zu maximieren.",
+    "features": {
+      "design": "Neurowissenschaftliches Design",
+      "designDesc": "Für das menschliche Gehirn gestaltete Schnittstellen",
+      "performance": "Optimierte Performance",
+      "performanceDesc": "Ultra-schnelles Laden und fortschrittliche SEO",
+      "support": "Kontinuierlicher Support",
+      "supportDesc": "Laufende Unterstützung und Updates"
+    }
+  },
+  "popular": {
+    "title": "Meistgefragte Pakete",
+    "subtitle": "Komplette Lösungen für jeden digitalen Bedarf",
+    "badges": {
+      "bestSeller": "BESTSELLER",
+      "popular": "BELIEBT",
+      "conversion": "HOHE KONVERSION"
+    },
+    "packages": {
+      "website": {
+        "title": "Unternehmenswebsite",
+        "price": "€ 1.499",
+        "features": [
+          "Modernes Responsive Design",
+          "5-7 Individuelle Seiten",
+          "Basis-SEO optimiert",
+          "Kontaktformular & Karte",
+          "Social Media Integration",
+          "SSL-Zertifikat & Hosting 1 Jahr"
+        ]
+      },
+      "ecommerce": {
+        "title": "Basis E-Commerce",
+        "price": "€ 2.999",
+        "features": [
+          "Katalog bis zu 50 Produkten",
+          "Sicherer Warenkorb & Checkout",
+          "Online-Zahlungen (Stripe/PayPal)",
+          "Bestell- & Inventarverwaltung",
+          "E-Commerce SEO optimiert",
+          "E-Commerce Hosting & SSL"
+        ]
+      },
+      "landing": {
+        "title": "Premium Landing Page",
+        "price": "€ 899",
+        "features": [
+          "High-Conversion Design",
+          "Überzeugendes Copywriting",
+          "Integriertes A/B Testing",
+          "CRM/E-Mail Integration",
+          "Analytics & Tracking",
+          "Mobile First Optimierung"
+        ]
+      }
+    },
+    "viewAll": "Alle Leistungen Anzeigen",
+    "select": "Auswählen",
+    "order": "Jetzt Bestellen"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Komplette Lösungen für Ihren digitalen Erfolg",
+    "items": {
+      "web": "Webentwicklung",
+      "webDesc": "Responsive Websites, progressive Webanwendungen und maßgeschneiderte Lösungen mit modernen Technologien.",
+      "ecommerce": "E-Commerce",
+      "ecommerceDesc": "Komplette E-Commerce-Plattformen mit sicheren Zahlungen, Inventarverwaltung und integriertem Marketing.",
+      "seo": "Fortgeschrittene SEO",
+      "seoDesc": "Suchmaschinenoptimierung, Wettbewerbsanalyse und Strategien für Top-Platzierungen.",
+      "design": "UI/UX Design",
+      "designDesc": "Neurowissenschaftliches Design, das Engagement und Konversionen durch einprägsame Erlebnisse erhöht.",
+      "mobile": "Mobile Apps",
+      "mobileDesc": "Hybride und native Anwendungen für iOS und Android mit React Native und modernen Technologien.",
+      "marketing": "Digitales Marketing",
+      "marketingDesc": "Komplette digitale Marketingstrategien, Werbung und konversionsorientierte Kampagnen."
+    }
+  },
+  "portfolio": {
+    "title": "Unser Portfolio",
+    "subtitle": "Projekte, die unsere Erfahrung und Kreativität demonstrieren",
+    "projects": {
+      "fintech": "Fintech Dashboard",
+      "fintechDesc": "Analytisches Dashboard für Fintech-Startups mit interaktiven Diagrammen und Echtzeitdaten.",
+      "fashion": "Mode E-Commerce",
+      "fashionDesc": "E-Commerce-Plattform für Modemarken mit personalisiertem Empfehlungssystem.",
+      "fitness": "Fitness App",
+      "fitnessDesc": "Mobile Anwendung für Workout-Tracking mit personalisiertem Ernährungsplan."
+    },
+    "cta": "Individuelles Angebot Anfordern"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Bereit, Ihre Idee in die Realität umzusetzen? Kontaktieren Sie uns für ein kostenloses Angebot",
+    "info": {
+      "address": "Adresse",
+      "addressValue": "Via del Corso 123, 00186 Rom, Italien",
+      "phone": "Telefon",
+      "phoneValue": "+39 333 123 4567",
+      "email": "E-Mail",
+      "emailValue": "info@neurowebstudio.it",
+      "hours": "Arbeitszeiten",
+      "hours1": "Mo - Fr: 9:00 - 18:00",
+      "hours2": "Samstag: 10:00 - 14:00",
+      "social": "Folgen Sie uns auf Social Media"
+    },
+    "form": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "phone": "Ihr Telefon",
+      "service": "Leistung auswählen",
+      "serviceOptions": {
+        "choose": "Leistung auswählen",
+        "website": "Unternehmenswebsite",
+        "ecommerce": "E-Commerce",
+        "landing": "Landing Page",
+        "seo": "SEO",
+        "other": "Andere"
+      },
+      "message": "Beschreiben Sie Ihr Projekt...",
+      "privacy": "Ich akzeptiere die Datenschutzerklärung",
+      "submit": "Anfrage Senden"
+    }
+  },
+  "footer": {
+    "description": "Digitale Innovation, neurowissenschaftliches Design und fortschrittliche Technologien für Ihren Online-Erfolg.",
+    "payment": "Sichere Zahlungen",
+    "categories": {
+      "services": "Leistungen",
+      "servicesItems": [
+        "Unternehmenswebsites",
+        "E-Commerce",
+        "Landing Pages",
+        "Fortgeschrittene SEO",
+        "Mobile Apps"
+      ],
+      "company": "Unternehmen",
+      "companyItems": [
+        "Über Uns",
+        "Portfolio",
+        "Kontakt",
+        "Blog",
+        "Arbeiten Sie mit Uns"
+      ],
+      "support": "Support",
+      "supportItems": [
+        "FAQ",
+        "Dokumentation",
+        "Datenschutzerklärung",
+        "Nutzungsbedingungen",
+        "Technischer Support"
+      ]
+    },
+    "copyright": "&copy; 2023 NeuroWeb Studio. Alle Rechte vorbehalten. USt-IdNr.: 12345678901"
+  },
+  "cart": {
+    "title": "Ihre Bestellung",
+    "total": "Gesamt:",
+    "continue": "Weiter Einkaufen",
+    "checkout": "Zur Kasse",
+    "added": " wurde zum Warenkorb hinzugefügt!",
+    "empty": "Ihr Warenkorb ist leer!"
+  },
+  "chatbot": {
+    "title": "NeuroWeb Assistent",
+    "placeholder": "Schreiben Sie Ihre Nachricht...",
+    "quickReplies": ["Preise", "Lieferzeiten", "Kontakte"],
+    "responses": {
+      "prezzi": "Wir bieten verschiedene Pakete:<br>• Website: €1.499 - €4.999<br>• E-Commerce: €2.999 - €8.999<br>• Landing Page: €899 - €2.499<br>• SEO: €499 - €1.999/Monat<br>• Mobile App: €4.999 - €19.999<br><br>Möchten Sie mehr Details zu einem bestimmten Service?",
+      "tempi": "Lieferzeiten variieren:<br>• Websites: 2-4 Wochen<br>• E-Commerce: 4-6 Wochen<br>• Landing Pages: 1-2 Wochen<br>• SEO: Ergebnisse in 3-6 Monaten<br>• Mobile Apps: 6-12 Wochen<br><br>Wir stellen immer einen detaillierten Zeitplan zur Verfügung!",
+      "contatti": "Sie können uns kontaktieren:<br>📞 Telefon: +39 333 123 4567<br>📧 E-Mail: info@neurowebstudio.it<br>📍 Adresse: Via del Corso 123, Rom<br>💬 WhatsApp: Klicken Sie auf den grünen Button<br><br>Wir antworten innerhalb von 24 Stunden!",
+      "default": "Es tut mir leid, ich habe nicht verstanden. Sie können mich fragen nach:<br>• Servicepreisen<br>• Lieferzeiten<br>• Kontaktinformationen<br>• Angebotenen Leistungen<br><br>Oder nutzen Sie die Buttons unten!"
+    }
+  },
+  "servicesPage": {
+    "title": "Alle Unsere Leistungen",
+    "subtitle": "Komplette Lösungen für jeden digitalen Bedarf. Wählen Sie den perfekten Service für Ihr Projekt.",
+    "search": "Leistungen suchen...",
+    "categories": {
+      "all": "Alle",
+      "web": "Websites",
+      "ecommerce": "E-Commerce",
+      "seo": "SEO",
+      "app": "Mobile Apps",
+      "marketing": "Marketing"
+    },
+    "faq": {
+      "title": "Häufig Gestellte Fragen",
+      "items": [
+        {
+          "q": "Wie funktioniert der Entwicklungsprozess?",
+          "a": "Unser Prozess ist in 5 Phasen strukturiert: Analyse, Design, Entwicklung, Testing und Launch. Jede Phase beinhaltet Überarbeitungen und Genehmigungen von Ihnen."
+        },
+        {
+          "q": "Was sind die Lieferzeiten?",
+          "a": "Die Zeiten variieren je nach Service: Websites 2-4 Wochen, E-Commerce 4-6 Wochen, Mobile Apps 6-12 Wochen. Wir stellen immer einen detaillierten Zeitplan zur Verfügung."
+        },
+        {
+          "q": "Bieten Sie Wartung nach dem Launch an?",
+          "a": "Ja, wir bieten monatliche Wartungspläne an, die Updates, Backups, Sicherheit und technischen Support beinhalten."
+        },
+        {
+          "q": "Wie funktionieren die Zahlungen?",
+          "a": "Wir verlangen eine Anzahlung von 30% zur Projektbeginn, 40% bei Designvorstellung und 30% bei Fertigstellung. Wir akzeptieren Banküberweisung, Kreditkarte und PayPal."
+        },
+        {
+          "q": "Kann ich meine Seite nach dem Launch ändern?",
+          "a": "Ja, wir bieten ein benutzerfreundliches CMS, mit dem Sie Inhalte, Bilder und Texte ohne technische Kenntnisse ändern können."
+        },
+        {
+          "q": "Bieten Sie auch Hosting und Domain an?",
+          "a": "Ja, wir bieten komplette Pakete an, die optimiertes Hosting, Domain und SSL-Zertifikat beinhalten. Oder wir arbeiten mit Ihrem bestehenden Hosting."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Ihr Projekt zu starten?",
+      "subtitle": "Kontaktieren Sie uns für eine kostenlose Beratung und ein individuelles Angebot.",
+      "cta1": "Angebot Anfordern",
+      "cta2": "Jetzt Anrufen"
+    }
+  }
+}

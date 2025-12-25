@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti i Servizi | NeuroWeb Studio</title>
+    <meta name="description" content="Scopri tutti i servizi di NeuroWeb Studio: sviluppo web, e-commerce, SEO, app mobile e molto altro. Preventivi personalizzati.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/servizi.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/393331234567?text=Ciao%20NeuroWeb%20Studio,%20vorrei%20informazioni%20su..." 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Neuro<span>Web</span>Studio</a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">Chi Siamo</a></li>
+                    <li><a href="#services">Servizi</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contatti</a></li>
+                    <li><a href="index.html" class="btn-nav">Torna alla Home</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Servizi (sezione aggiornata) -->
+<section class="services-hero">
+    <div class="container">
+        <div class="services-hero-content">
+            <h1 data-i18n="servicesPage.title">Tutti i Nostri Servizi</h1>
+            <p data-i18n="servicesPage.subtitle">Soluzioni complete per ogni esigenza digitale. Scegli il servizio perfetto per il tuo progetto.</p>
+            <div class="search-box">
+                <input type="text" data-i18n-placeholder="servicesPage.search" placeholder="Cerca servizi...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Servizi Grid -->
+    <section id="services" class="all-services">
+        <div class="container">
+            <div class="services-categories">
+                <button class="category-btn active" data-category="all">Tutti</button>
+                <button class="category-btn" data-category="web">Siti Web</button>
+                <button class="category-btn" data-category="ecommerce">E-commerce</button>
+                <button class="category-btn" data-category="seo">SEO</button>
+                <button class="category-btn" data-category="app">App Mobile</button>
+                <button class="category-btn" data-category="marketing">Marketing</button>
+            </div>
+
+            <div class="services-grid-detailed">
+                <!-- Sito Web Aziendale -->
+                <div class="service-detailed-card" id="sito-aziendale" data-category="web">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <h3>Sito Web Aziendale</h3>
+                            <div class="service-price">€ 1.499 - € 4.999</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">La vetrina digitale della tua azienda, progettata per convertire visitatori in clienti.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Design responsive personalizzato</li>
+                                <li><i class="fas fa-check"></i> 5-15 pagine ottimizzate</li>
+                                <li><i class="fas fa-check"></i> SEO base e ottimizzazione</li>
+                                <li><i class="fas fa-check"></i> Form contatti e integrazioni</li>
+                                <li><i class="fas fa-check"></i> CMS personalizzato</li>
+                                <li><i class="fas fa-check"></i> Hosting e dominio 1 anno</li>
+                                <li><i class="fas fa-check"></i> Certificato SSL</li>
+                                <li><i class="fas fa-check"></i> Training per la gestione</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>Base</h5>
+                                    <div class="package-price">€ 1.499</div>
+                                    <ul>
+                                        <li>5 pagine</li>
+                                        <li>Design responsive</li>
+                                        <li>SEO base</li>
+                                        <li>Form contatti</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Sito Web Base" data-price="1499">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Pro</h5>
+                                    <div class="package-price">€ 2.999</div>
+                                    <ul>
+                                        <li>10 pagine</li>
+                                        <li>Design premium</li>
+                                        <li>SEO avanzato</li>
+                                        <li>CMS personalizzato</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Sito Web Pro" data-price="2999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 4.999</div>
+                                    <ul>
+                                        <li>15+ pagine</li>
+                                        <li>Design personalizzato</li>
+                                        <li>SEO completo</li>
+                                        <li>Integrazioni avanzate</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Sito Web Enterprise" data-price="4999">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="Sito Web Aziendale" data-price="1499">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-commerce Base -->
+                <div class="service-detailed-card" id="ecommerce-base" data-category="ecommerce">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div>
+                            <h3>E-commerce Completo</h3>
+                            <div class="service-price">€ 2.999 - € 8.999</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">Piattaforma e-commerce professionale per vendere online in modo sicuro ed efficiente.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Catalogo prodotti illimitato</li>
+                                <li><i class="fas fa-check"></i> Carrello e checkout sicuro</li>
+                                <li><i class="fas fa-check"></i> Integrazione pagamenti (Stripe, PayPal)</li>
+                                <li><i class="fas fa-check"></i> Gestione inventario automatica</li>
+                                <li><i class="fas fa-check"></i> Sistema di spedizioni</li>
+                                <li><i class="fas fa-check"></i> Dashboard amministrativa</li>
+                                <li><i class="fas fa-check"></i> SEO e-commerce ottimizzato</li>
+                                <li><i class="fas fa-check"></i> Hosting e-commerce specializzato</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>Starter</h5>
+                                    <div class="package-price">€ 2.999</div>
+                                    <ul>
+                                        <li>Fino a 50 prodotti</li>
+                                        <li>Pagamenti online</li>
+                                        <li>Gestione ordini</li>
+                                        <li>Design responsive</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="E-commerce Starter" data-price="2999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Business</h5>
+                                    <div class="package-price">€ 4.999</div>
+                                    <ul>
+                                        <li>Fino a 200 prodotti</li>
+                                        <li>Multi-pagamento</li>
+                                        <li>Gestione inventario</li>
+                                        <li>SEO avanzato</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="E-commerce Business" data-price="4999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 8.999</div>
+                                    <ul>
+                                        <li>Prodotti illimitati</li>
+                                        <li>Sistema avanzato</li>
+                                        <li>Integrazioni ERP</li>
+                                        <li>Supporto prioritario</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="E-commerce Enterprise" data-price="8999">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="E-commerce Base" data-price="2999">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Landing Page Premium -->
+                <div class="service-detailed-card" id="landing-page" data-category="web">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div>
+                            <h3>Landing Page Premium</h3>
+                            <div class="service-price">€ 899 - € 2.499</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">Pagine di conversione ottimizzate per massimizzare lead e vendite.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Design high-conversion</li>
+                                <li><i class="fas fa-check"></i> Copywriting persuasive</li>
+                                <li><i class="fas fa-check"></i> A/B testing integrato</li>
+                                <li><i class="fas fa-check"></i> Integrazione CRM/Email</li>
+                                <li><i class="fas fa-check"></i> Analytics avanzato</li>
+                                <li><i class="fas fa-check"></i> Ottimizzazione mobile</li>
+                                <li><i class="fas fa-check"></i> Speed optimization</li>
+                                <li><i class="fas fa-check"></i> Report performance</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>Basic</h5>
+                                    <div class="package-price">€ 899</div>
+                                    <ul>
+                                        <li>1 landing page</li>
+                                        <li>Design responsive</li>
+                                        <li>Form lead generation</li>
+                                        <li>Analytics base</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Landing Page Basic" data-price="899">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Pro</h5>
+                                    <div class="package-price">€ 1.499</div>
+                                    <ul>
+                                        <li>3 landing pages</li>
+                                        <li>A/B testing</li>
+                                        <li>Integrazione CRM</li>
+                                        <li>Copywriting professionale</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Landing Page Pro" data-price="1499">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 2.499</div>
+                                    <ul>
+                                        <li>5+ landing pages</li>
+                                        <li>Testing avanzato</li>
+                                        <li>Integrazione completa</li>
+                                        <li>Report dettagliati</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Landing Page Enterprise" data-price="2499">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="Landing Page Premium" data-price="899">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Avanzato -->
+                <div class="service-detailed-card" id="seo" data-category="seo">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div>
+                            <h3>SEO Avanzato</h3>
+                            <div class="service-price">€ 499/mese - € 1.999/mese</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">Strategie SEO complete per posizionare il tuo sito ai primi posti su Google.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Audit SEO completo</li>
+                                <li><i class="fas fa-check"></i> Ricerca parole chiave</li>
+                                <li><i class="fas fa-check"></i> Ottimizzazione on-page</li>
+                                <li><i class="fas fa-check"></i> Link building strategico</li>
+                                <li><i class="fas fa-check"></i> Content marketing</li>
+                                <li><i class="fas fa-check"></i> Technical SEO</li>
+                                <li><i class="fas fa-check"></i> Report mensili</li>
+                                <li><i class="fas fa-check"></i> Monitoraggio posizionamento</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>Basic</h5>
+                                    <div class="package-price">€ 499/mese</div>
+                                    <ul>
+                                        <li>Audit iniziale</li>
+                                        <li>10 parole chiave</li>
+                                        <li>Ottimizzazione base</li>
+                                        <li>Report mensile</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="SEO Basic" data-price="499">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Pro</h5>
+                                    <div class="package-price">€ 999/mese</div>
+                                    <ul>
+                                        <li>Audit approfondito</li>
+                                        <li>25 parole chiave</li>
+                                        <li>Link building</li>
+                                        <li>Content creation</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="SEO Pro" data-price="999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 1.999/mese</div>
+                                    <ul>
+                                        <li>Strategia completa</li>
+                                        <li>50+ parole chiave</li>
+                                        <li>Link building avanzato</li>
+                                        <li>Analisi competitor</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="SEO Enterprise" data-price="1999">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="SEO Avanzato" data-price="499">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- App Mobile -->
+                <div class="service-detailed-card" id="app-mobile" data-category="app">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div>
+                            <h3>App Mobile</h3>
+                            <div class="service-price">€ 4.999 - € 19.999</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">Applicazioni mobile ibride e native per iOS e Android.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Design UI/UX mobile-first</li>
+                                <li><i class="fas fa-check"></i> Sviluppo React Native/Flutter</li>
+                                <li><i class="fas fa-check"></i> Integrazione API</li>
+                                <li><i class="fas fa-check"></i> Notifiche push</li>
+                                <li><i class="fas fa-check"></i> Autenticazione sicura</li>
+                                <li><i class="fas fa-check"></i> Pubblicazione App Store/Play Store</li>
+                                <li><i class="fas fa-check"></i> Backend e database</li>
+                                <li><i class="fas fa-check"></i> Manutenzione e aggiornamenti</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>MVP</h5>
+                                    <div class="package-price">€ 4.999</div>
+                                    <ul>
+                                        <li>App ibrida base</li>
+                                        <li>3-5 funzionalità</li>
+                                        <li>Design base</li>
+                                        <li>Testing base</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="App Mobile MVP" data-price="4999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Business</h5>
+                                    <div class="package-price">€ 9.999</div>
+                                    <ul>
+                                        <li>App nativa</li>
+                                        <li>10-15 funzionalità</li>
+                                        <li>Design avanzato</li>
+                                        <li>Integrazioni API</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="App Mobile Business" data-price="9999">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 19.999</div>
+                                    <ul>
+                                        <li>App complessa</li>
+                                        <li>Funzionalità avanzate</li>
+                                        <li>Design premium</li>
+                                        <li>Supporto 24/7</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="App Mobile Enterprise" data-price="19999">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="App Mobile" data-price="4999">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing -->
+                <div class="service-detailed-card" data-category="marketing">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <h3>Digital Marketing</h3>
+                            <div class="service-price">€ 799/mese - € 2.999/mese</div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <p class="service-description">Strategie di marketing digitale per aumentare visibilità e conversioni.</p>
+                        
+                        <div class="service-features">
+                            <h4>Cosa Include:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Social Media Marketing</li>
+                                <li><i class="fas fa-check"></i> Google Ads e Facebook Ads</li>
+                                <li><i class="fas fa-check"></i> Email Marketing</li>
+                                <li><i class="fas fa-check"></i> Content Marketing</li>
+                                <li><i class="fas fa-check"></i> Influencer Marketing</li>
+                                <li><i class="fas fa-check"></i> Analytics e reporting</li>
+                                <li><i class="fas fa-check"></i> Strategia personalizzata</li>
+                                <li><i class="fas fa-check"></i> Gestione campagne</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-packages">
+                            <h4>Pacchetti Disponibili:</h4>
+                            <div class="packages-grid">
+                                <div class="package">
+                                    <h5>Base</h5>
+                                    <div class="package-price">€ 799/mese</div>
+                                    <ul>
+                                        <li>2 piattaforme social</li>
+                                        <li>1 campagna ads</li>
+                                        <li>Content creation</li>
+                                        <li>Report mensile</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Digital Marketing Base" data-price="799">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Pro</h5>
+                                    <div class="package-price">€ 1.499/mese</div>
+                                    <ul>
+                                        <li>4 piattaforme social</li>
+                                        <li>3 campagne ads</li>
+                                        <li>Email marketing</li>
+                                        <li>Analytics avanzato</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Digital Marketing Pro" data-price="1499">Seleziona</button>
+                                </div>
+                                <div class="package">
+                                    <h5>Enterprise</h5>
+                                    <div class="package-price">€ 2.999/mese</div>
+                                    <ul>
+                                        <li>Strategia completa</li>
+                                        <li>Campagne multicanale</li>
+                                        <li>Influencer marketing</li>
+                                        <li>Report personalizzati</li>
+                                    </ul>
+                                    <button class="btn select-package" data-service="Digital Marketing Enterprise" data-price="2999">Seleziona</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <button class="btn btn-large add-to-cart" data-service="Digital Marketing" data-price="799">Aggiungi al Carrello</button>
+                            <a href="index.html#contact" class="btn-outline">Richiedi Preventivo Personalizzato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Domande Frequenti</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Come funziona il processo di sviluppo?</h3>
+                    <p>Il nostro processo è strutturato in 5 fasi: analisi, progettazione, sviluppo, testing e lancio. Ogni fase include revisioni e approvazioni da parte tua.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Quali sono i tempi di consegna?</h3>
+                    <p>I tempi variano in base al servizio: siti web 2-4 settimane, e-commerce 4-6 settimane, app mobile 6-12 settimane. Forniamo sempre una timeline dettagliata.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Offrite manutenzione dopo il lancio?</h3>
+                    <p>Sì, offriamo piani di manutenzione mensile che includono aggiornamenti, backup, sicurezza e supporto tecnico.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Come funzionano i pagamenti?</h3>
+                    <p>Richiediamo un acconto del 30% per iniziare il progetto, il 40% alla presentazione del design e il 30% finale al completamento. Accettiamo bonifico, carta di credito e PayPal.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Posso modificare il mio sito dopo il lancio?</h3>
+                    <p>Sì, forniamo un CMS user-friendly che ti permette di modificare contenuti, immagini e testi senza bisogno di competenze tecniche.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Fate anche hosting e dominio?</h3>
+                    <p>Sì, offriamo pacchetti completi che includono hosting ottimizzato, dominio e certificato SSL. Oppure possiamo lavorare sul tuo hosting esistente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Finale -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2>Pronto a Iniziare il Tuo Progetto?</h2>
+                <p>Contattaci per una consulenza gratuita e un preventivo personalizzato.</p>
+                <div class="final-cta-btns">
+                    <a href="index.html#contact" class="btn btn-large">Richiedi Preventivo</a>
+                    <a href="tel:+393331234567" class="btn-outline btn-large">Chiamaci Ora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="index.html" class="footer-logo">Neuro<span>Web</span>Studio</a>
+                    <p>Innovazione digitale, design neuroscientifico e tecnologie avanzate per il tuo successo online.</p>
+                    
+                    <div class="payment-methods">
+                        <h4>Pagamenti Sicuri</h4>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-stripe"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3>Servizi</h3>
+                    <ul>
+                        <li><a href="#sito-aziendale">Siti Web Aziendali</a></li>
+                        <li><a href="#ecommerce-base">E-commerce</a></li>
+                        <li><a href="#landing-page">Landing Page</a></li>
+                        <li><a href="#seo">SEO Avanzato</a></li>
+                        <li><a href="#app-mobile">App Mobile</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3>Azienda</h3>
+                    <ul>
+                        <li><a href="index.html#about">Chi Siamo</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#contact">Contatti</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Lavora con Noi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3>Supporto</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Documentazione</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Termini di Servizio</a></li>
+                        <li><a href="#">Supporto Tecnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 NeuroWeb Studio. Tutti i diritti riservati. P.IVA: 12345678901</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Il Tuo Ordine</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <h4>Totale: <span id="cart-total-price">€ 0</span></h4>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-outline" id="continue-shopping">Continua a Scegliere</button>
+                <button class="btn" id="checkout-btn">Procedi al Pagamento</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/servizi.js"></script>
+</body>
+</html>

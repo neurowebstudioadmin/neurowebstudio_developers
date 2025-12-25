@@ -1,0 +1,16 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Cartelle dipendenze
+node_modules/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log
+*.log

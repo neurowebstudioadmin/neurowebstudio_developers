@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "NeuroWeb Studio | Sviluppo Web & Design Avanzato",
+    "description": "NeuroWeb Studio crea siti web moderni, e-commerce e applicazioni web. Sviluppo su misura con design innovativo e SEO avanzato.",
+    "keywords": "sviluppo web, e-commerce, design, SEO, applicazioni web, neuroweb studio"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "portfolio": "Portfolio",
+    "contact": "Contatti",
+    "allServices": "Tutti i Servizi",
+    "backHome": "Torna alla Home"
+  },
+  "hero": {
+    "title": "NeuroWeb Studio",
+    "subtitle": "Innovazione Digitale & Design Avanzato",
+    "description": "Trasformiamo la tua visione in realtà digitale con tecnologie all'avanguardia, design neuroscientifico e strategie SEO che portano risultati concreti.",
+    "cta1": "Scopri i Pacchetti",
+    "cta2": "Richiedi Preventivo",
+    "stats": {
+      "projects": "Progetti Completati",
+      "clients": "Clienti Soddisfatti",
+      "support": "Supporto Tecnico"
+    }
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "NeuroWeb Studio combina neuroscienze, design e tecnologia per creare esperienze digitali che coinvolgono e convertono.",
+    "heading": "La Scienza del Successo Digitale",
+    "text1": "Siamo un team di sviluppatori, designer e esperti SEO che applica principi neuroscientifici per creare interfacce che catturano l'attenzione e guidano all'azione.",
+    "text2": "Il nostro approccio unico combina psicologia del colore, architettura dell'informazione e tecniche di persuasione digitale per massimizzare la conversione.",
+    "features": {
+      "design": "Design Neuroscienziale",
+      "designDesc": "Interfacce progettate per il cervello umano",
+      "performance": "Performance Ottimizzate",
+      "performanceDesc": "Caricamento ultra-veloce e SEO avanzato",
+      "support": "Supporto Continuo",
+      "supportDesc": "Assistenza e aggiornamenti costanti"
+    }
+  },
+  "popular": {
+    "title": "Pacchetti Più Richiesti",
+    "subtitle": "Soluzioni complete e pronte all'uso per ogni esigenza digitale",
+    "badges": {
+      "bestSeller": "PIÙ VENDUTO",
+      "popular": "POPOLARE",
+      "conversion": "ALTA CONVERSIONE"
+    },
+    "packages": {
+      "website": {
+        "title": "Sito Web Aziendale",
+        "price": "€ 1.499",
+        "features": [
+          "Design Responsive Moderno",
+          "5-7 Pagine Personalizzate",
+          "SEO Base Ottimizzato",
+          "Form Contatti & Mappa",
+          "Integrazione Social Media",
+          "SSL Certificate & Hosting 1 Anno"
+        ]
+      },
+      "ecommerce": {
+        "title": "E-commerce Base",
+        "price": "€ 2.999",
+        "features": [
+          "Catalogo fino a 50 Prodotti",
+          "Carrello & Checkout Sicuro",
+          "Pagamenti Online (Stripe/PayPal)",
+          "Gestione Ordini & Inventario",
+          "SEO E-commerce Ottimizzato",
+          "Hosting E-commerce & SSL"
+        ]
+      },
+      "landing": {
+        "title": "Landing Page Premium",
+        "price": "€ 899",
+        "features": [
+          "Design High-Conversion",
+          "Copywriting Persuasive",
+          "A/B Testing Integrato",
+          "Integrazione CRM/Email",
+          "Analytics & Tracking",
+          "Ottimizzazione Mobile First"
+        ]
+      }
+    },
+    "viewAll": "Vedi Tutti i Servizi",
+    "select": "Seleziona",
+    "order": "Ordina Ora"
+  },
+  "services": {
+    "title": "I nostri Servizi",
+    "subtitle": "Soluzioni complete per il tuo successo digitale",
+    "items": {
+      "web": "Sviluppo Web",
+      "webDesc": "Siti web responsive, applicazioni web progressive e soluzioni personalizzate con tecnologie moderne.",
+      "ecommerce": "E-commerce",
+      "ecommerceDesc": "Piattaforme e-commerce complete con pagamenti sicuri, gestione inventario e marketing integrato.",
+      "seo": "SEO Avanzato",
+      "seoDesc": "Ottimizzazione per motori di ricerca, analisi competitor e strategie per posizionamento top.",
+      "design": "UI/UX Design",
+      "designDesc": "Design neuroscientifico che aumenta engagement e conversioni attraverso esperienze memorabili.",
+      "mobile": "App Mobile",
+      "mobileDesc": "Applicazioni ibride e native per iOS e Android con React Native e tecnologie moderne.",
+      "marketing": "Digital Marketing",
+      "marketingDesc": "Strategie complete di marketing digitale, advertising e campagne conversion-oriented."
+    }
+  },
+  "portfolio": {
+    "title": "Il nostro Portfolio",
+    "subtitle": "Progetti che dimostrano la nostra esperienza e creatività",
+    "projects": {
+      "fintech": "Fintech Dashboard",
+      "fintechDesc": "Dashboard analitica per startup fintech con grafici interattivi e dati in tempo reale.",
+      "fashion": "E-commerce Fashion",
+      "fashionDesc": "Piattaforma e-commerce per brand di moda con sistema di raccomandazione personalizzato.",
+      "fitness": "Fitness App",
+      "fitnessDesc": "Applicazione mobile per tracking allenamenti con piano nutrizionale personalizzato."
+    },
+    "cta": "Richiedi un Preventivo Personalizzato"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Pronto a trasformare la tua idea in realtà? Contattaci per un preventivo gratuito",
+    "info": {
+      "address": "Indirizzo",
+      "addressValue": "Via del Corso 123, 00186 Roma, Italia",
+      "phone": "Telefono",
+      "phoneValue": "+39 333 123 4567",
+      "email": "Email",
+      "emailValue": "info@neurowebstudio.it",
+      "hours": "Orari Lavorativi",
+      "hours1": "Lun - Ven: 9:00 - 18:00",
+      "hours2": "Sabato: 10:00 - 14:00",
+      "social": "Seguici sui Social"
+    },
+    "form": {
+      "name": "Il tuo nome",
+      "email": "La tua email",
+      "phone": "Il tuo telefono",
+      "service": "Seleziona servizio",
+      "serviceOptions": {
+        "choose": "Seleziona servizio",
+        "website": "Sito Web Aziendale",
+        "ecommerce": "E-commerce",
+        "landing": "Landing Page",
+        "seo": "SEO",
+        "other": "Altro"
+      },
+      "message": "Descrivi il tuo progetto...",
+      "privacy": "Accetto l'informativa sulla privacy",
+      "submit": "Invia Richiesta"
+    }
+  },
+  "footer": {
+    "description": "Innovazione digitale, design neuroscientifico e tecnologie avanzate per il tuo successo online.",
+    "payment": "Pagamenti Sicuri",
+    "categories": {
+      "services": "Servizi",
+      "servicesItems": [
+        "Siti Web Aziendali",
+        "E-commerce",
+        "Landing Page",
+        "SEO Avanzato",
+        "App Mobile"
+      ],
+      "company": "Azienda",
+      "companyItems": [
+        "Chi Siamo",
+        "Portfolio",
+        "Contatti",
+        "Blog",
+        "Lavora con Noi"
+      ],
+      "support": "Supporto",
+      "supportItems": [
+        "FAQ",
+        "Documentazione",
+        "Privacy Policy",
+        "Termini di Servizio",
+        "Supporto Tecnico"
+      ]
+    },
+    "copyright": "&copy; 2023 NeuroWeb Studio. Tutti i diritti riservati. P.IVA: 12345678901"
+  },
+  "cart": {
+    "title": "Il Tuo Ordine",
+    "total": "Totale:",
+    "continue": "Continua a Scegliere",
+    "checkout": "Procedi al Pagamento",
+    "added": " aggiunto al carrello!",
+    "empty": "Il carrello è vuoto!"
+  },
+  "chatbot": {
+    "title": "NeuroWeb Assistant",
+    "placeholder": "Scrivi il tuo messaggio...",
+    "quickReplies": ["Prezzi", "Tempi", "Contatti"],
+    "responses": {
+      "prezzi": "Offriamo diversi pacchetti:<br>• Sito Web: €1.499 - €4.999<br>• E-commerce: €2.999 - €8.999<br>• Landing Page: €899 - €2.499<br>• SEO: €499 - €1.999/mese<br>• App Mobile: €4.999 - €19.999<br><br>Vuoi maggiori dettagli su un servizio specifico?",
+      "tempi": "I tempi di consegna variano:<br>• Siti Web: 2-4 settimane<br>• E-commerce: 4-6 settimane<br>• Landing Page: 1-2 settimane<br>• SEO: Risultati in 3-6 mesi<br>• App Mobile: 6-12 settimane<br><br>Forniamo sempre una timeline dettagliata!",
+      "contatti": "Puoi contattarci:<br>📞 Telefono: +39 333 123 4567<br>📧 Email: info@neurowebstudio.it<br>📍 Indirizzo: Via del Corso 123, Roma<br>💬 WhatsApp: Clicca il pulsante verde<br><br>Rispondiamo entro 24 ore!",
+      "default": "Mi dispiace, non ho capito. Puoi chiedermi informazioni su:<br>• Prezzi dei servizi<br>• Tempi di consegna<br>• Contatti<br>• Servizi offerti<br><br>Oppure usa i pulsanti qui sotto!"
+    }
+  },
+  "servicesPage": {
+    "title": "Tutti i Nostri Servizi",
+    "subtitle": "Soluzioni complete per ogni esigenza digitale. Scegli il servizio perfetto per il tuo progetto.",
+    "search": "Cerca servizi...",
+    "categories": {
+      "all": "Tutti",
+      "web": "Siti Web",
+      "ecommerce": "E-commerce",
+      "seo": "SEO",
+      "app": "App Mobile",
+      "marketing": "Marketing"
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "items": [
+        {
+          "q": "Come funziona il processo di sviluppo?",
+          "a": "Il nostro processo è strutturato in 5 fasi: analisi, progettazione, sviluppo, testing e lancio. Ogni fase include revisioni e approvazioni da parte tua."
+        },
+        {
+          "q": "Quali sono i tempi di consegna?",
+          "a": "I tempi variano in base al servizio: siti web 2-4 settimane, e-commerce 4-6 settimane, app mobile 6-12 settimane. Forniamo sempre una timeline dettagliata."
+        },
+        {
+          "q": "Offrite manutenzione dopo il lancio?",
+          "a": "Sì, offriamo piani di manutenzione mensile che includono aggiornamenti, backup, sicurezza e supporto tecnico."
+        },
+        {
+          "q": "Come funzionano i pagamenti?",
+          "a": "Richiediamo un acconto del 30% per iniziare il progetto, il 40% alla presentazione del design e il 30% finale al completamento. Accettiamo bonifico, carta di credito e PayPal."
+        },
+        {
+          "q": "Posso modificare il mio sito dopo il lancio?",
+          "a": "Sì, forniamo un CMS user-friendly che ti permette di modificare contenuti, immagini e testi senza bisogno di competenze tecniche."
+        },
+        {
+          "q": "Fate anche hosting e dominio?",
+          "a": "Sì, offriamo pacchetti completi che includono hosting ottimizzato, dominio e certificato SSL. Oppure possiamo lavorare sul tuo hosting esistente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto a Iniziare il Tuo Progetto?",
+      "subtitle": "Contattaci per una consulenza gratuita e un preventivo personalizzato.",
+      "cta1": "Richiedi Preventivo",
+      "cta2": "Chiamaci Ora"
+    }
+  }
+}

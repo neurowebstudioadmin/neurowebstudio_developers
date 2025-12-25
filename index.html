@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title">NeuroWeb Studio | Sviluppo Web & Design Avanzato</title>
+    <meta name="description" data-i18n="meta.description" content="NeuroWeb Studio crea siti web moderni, e-commerce e applicazioni web. Sviluppo su misura con design innovativo e SEO avanzato.">
+    <meta name="keywords" data-i18n="meta.keywords" content="sviluppo web, e-commerce, design, SEO, applicazioni web, neuroweb studio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/393331234567?text=Ciao%20NeuroWeb%20Studio,%20vorrei%20informazioni%20su..." 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Chat Bot -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <h3 data-i18n="chatbot.title">NeuroWeb Assistant</h3>
+            <button id="close-chatbot"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chatbot-messages">
+            <div class="chatbot-message bot">
+                <p>Ciao! Sono l'assistente di NeuroWeb Studio. Come posso aiutarti?</p>
+            </div>
+        </div>
+        <div id="chatbot-input">
+            <input type="text" id="chatbot-input-field" data-i18n-placeholder="chatbot.placeholder" placeholder="Scrivi il tuo messaggio...">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+        <div id="chatbot-quick-replies">
+            <button class="quick-reply" data-reply="Prezzi" data-i18n="chatbot.quickReplies.0">Prezzi</button>
+            <button class="quick-reply" data-reply="Tempi" data-i18n="chatbot.quickReplies.1">Tempi di consegna</button>
+            <button class="quick-reply" data-reply="Contatti" data-i18n="chatbot.quickReplies.2">Contatti</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle">
+        <i class="fas fa-robot"></i>
+    </button>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">Neuro<span>Web</span>Studio</a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Servizi</a></li>
+                    <li><a href="#popular" data-i18n="nav.portfolio">Portfolio</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contatti</a></li>
+                    <li><a href="servizi.html" class="btn-nav" data-i18n="nav.allServices">Tutti i Servizi</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">NeuroWeb Studio</h1>
+                <h2 data-i18n="hero.subtitle">Innovazione Digitale & Design Avanzato</h2>
+                <p data-i18n="hero.description">Trasformiamo la tua visione in realtà digitale con tecnologie all'avanguardia, design neuroscientifico e strategie SEO che portano risultati concreti.</p>
+                
+                <div class="hero-btns">
+                    <a href="#popular" class="btn" data-i18n="hero.cta1">Scopri i Pacchetti</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Richiedi Preventivo</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>150+</h3>
+                        <p data-i18n="hero.stats.projects">Progetti Completati</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p data-i18n="hero.stats.clients">Clienti Soddisfatti</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p data-i18n="hero.stats.support">Supporto Tecnico</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="NeuroWeb Studio - Sviluppo Web Avanzato">
+                
+                <div class="floating-element">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="floating-element">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="floating-element">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">Chi Siamo</h2>
+            <p class="section-subtitle" data-i18n="about.subtitle">NeuroWeb Studio combina neuroscienze, design e tecnologia per creare esperienze digitali che coinvolgono e convertono.</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team NeuroWeb Studio">
+                </div>
+                
+                <div class="about-text">
+                    <h3 data-i18n="about.heading">La Scienza del Successo Digitale</h3>
+                    <p data-i18n="about.text1">Siamo un team di sviluppatori, designer e esperti SEO che applica principi neuroscientifici per creare interfacce che catturano l'attenzione e guidano all'azione.</p>
+                    <p data-i18n="about.text2">Il nostro approccio unico combina psicologia del colore, architettura dell'informazione e tecniche di persuasione digitale per massimizzare la conversione.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4 data-i18n="about.features.design">Design Neuroscienziale</h4>
+                            <p data-i18n="about.features.designDesc">Interfacce progettate per il cervello umano</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <h4 data-i18n="about.features.performance">Performance Ottimizzate</h4>
+                            <p data-i18n="about.features.performanceDesc">Caricamento ultra-veloce e SEO avanzato</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <h4 data-i18n="about.features.support">Supporto Continuo</h4>
+                            <p data-i18n="about.features.supportDesc">Assistenza e aggiornamenti costanti</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Services Section -->
+    <section id="popular" class="popular-services">
+        <div class="container">
+            <h2 class="section-title" data-i18n="popular.title">Pacchetti Più Richiesti</h2>
+            <p class="section-subtitle" data-i18n="popular.subtitle">Soluzioni complete e pronte all'uso per ogni esigenza digitale</p>
+            
+            <div class="services-grid">
+                <!-- Card 1: Sito Web Aziendale -->
+                <div class="service-card popular">
+                    <div class="service-badge" data-i18n="popular.badges.bestSeller">PIÙ VENDUTO</div>
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 data-i18n="popular.packages.website.title">Sito Web Aziendale</h3>
+                    <p class="service-price" data-i18n="popular.packages.website.price">€ 1.499</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.0">Design Responsive Moderno</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.1">5-7 Pagine Personalizzate</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.2">SEO Base Ottimizzato</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.3">Form Contatti & Mappa</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.4">Integrazione Social Media</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.website.features.5">SSL Certificate & Hosting 1 Anno</span></li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="servizi.html#sito-aziendale" class="btn" data-i18n="popular.select">Scopri di Più</a>
+                        <button class="btn-outline add-to-cart" data-service="Sito Web Aziendale" data-price="1499" data-i18n="popular.order">Ordina Ora</button>
+                    </div>
+                </div>
+                
+                <!-- Card 2: E-commerce Base -->
+                <div class="service-card popular">
+                    <div class="service-badge" data-i18n="popular.badges.popular">POPOLARE</div>
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 data-i18n="popular.packages.ecommerce.title">E-commerce Base</h3>
+                    <p class="service-price" data-i18n="popular.packages.ecommerce.price">€ 2.999</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.0">Catalogo fino a 50 Prodotti</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.1">Carrello & Checkout Sicuro</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.2">Pagamenti Online (Stripe/PayPal)</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.3">Gestione Ordini & Inventario</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.4">SEO E-commerce Ottimizzato</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.ecommerce.features.5">Hosting E-commerce & SSL</span></li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="servizi.html#ecommerce-base" class="btn" data-i18n="popular.select">Scopri di Più</a>
+                        <button class="btn-outline add-to-cart" data-service="E-commerce Base" data-price="2999" data-i18n="popular.order">Ordina Ora</button>
+                    </div>
+                </div>
+                
+                <!-- Card 3: Landing Page Premium -->
+                <div class="service-card popular">
+                    <div class="service-badge" data-i18n="popular.badges.conversion">ALTA CONVERSIONE</div>
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 data-i18n="popular.packages.landing.title">Landing Page Premium</h3>
+                    <p class="service-price" data-i18n="popular.packages.landing.price">€ 899</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.0">Design High-Conversion</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.1">Copywriting Persuasive</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.2">A/B Testing Integrato</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.3">Integrazione CRM/Email</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.4">Analytics & Tracking</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="popular.packages.landing.features.5">Ottimizzazione Mobile First</span></li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="servizi.html#landing-page" class="btn" data-i18n="popular.select">Scopri di Più</a>
+                        <button class="btn-outline add-to-cart" data-service="Landing Page Premium" data-price="899" data-i18n="popular.order">Ordina Ora</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="servizi.html" class="btn btn-large" data-i18n="popular.viewAll">Vedi Tutti i Servizi <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services.title">I nostri Servizi</h2>
+            <p class="section-subtitle" data-i18n="services.subtitle">Soluzioni complete per il tuo successo digitale</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-i18n="services.items.web">Sviluppo Web</h3>
+                    <p data-i18n="services.items.webDesc">Siti web responsive, applicazioni web progressive e soluzioni personalizzate con tecnologie moderne.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 data-i18n="services.items.ecommerce">E-commerce</h3>
+                    <p data-i18n="services.items.ecommerceDesc">Piattaforme e-commerce complete con pagamenti sicuri, gestione inventario e marketing integrato.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 data-i18n="services.items.seo">SEO Avanzato</h3>
+                    <p data-i18n="services.items.seoDesc">Ottimizzazione per motori di ricerca, analisi competitor e strategie per posizionamento top.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 data-i18n="services.items.design">UI/UX Design</h3>
+                    <p data-i18n="services.items.designDesc">Design neuroscientifico che aumenta engagement e conversioni attraverso esperienze memorabili.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 data-i18n="services.items.mobile">App Mobile</h3>
+                    <p data-i18n="services.items.mobileDesc">Applicazioni ibride e native per iOS e Android con React Native e tecnologie moderne.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="services.items.marketing">Digital Marketing</h3>
+                    <p data-i18n="services.items.marketingDesc">Strategie complete di marketing digitale, advertising e campagne conversion-oriented.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-i18n="portfolio.title">Il nostro Portfolio</h2>
+            <p class="section-subtitle" data-i18n="portfolio.subtitle">Progetti che dimostrano la nostra esperienza e creatività</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fintech Dashboard" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 data-i18n="portfolio.projects.fintech">Fintech Dashboard</h3>
+                        <p data-i18n="portfolio.projects.fintechDesc">Dashboard analitica per startup fintech con grafici interattivi e dati in tempo reale.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-commerce Fashion" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 data-i18n="portfolio.projects.fashion">E-commerce Fashion</h3>
+                        <p data-i18n="portfolio.projects.fashionDesc">Piattaforma e-commerce per brand di moda con sistema di raccomandazione personalizzato.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fitness App" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 data-i18n="portfolio.projects.fitness">Fitness App</h3>
+                        <p data-i18n="portfolio.projects.fitnessDesc">Applicazione mobile per tracking allenamenti con piano nutrizionale personalizzato.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <a href="#contact" class="btn btn-large" data-i18n="portfolio.cta">Richiedi un Preventivo Personalizzato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Contattaci</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">Pronto a trasformare la tua idea in realtà? Contattaci per un preventivo gratuito</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3 data-i18n="contact.info.address">Indirizzo</h3>
+                            <p data-i18n="contact.info.addressValue">Via del Corso 123, 00186 Roma, Italia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3 data-i18n="contact.info.phone">Telefono</h3>
+                            <p data-i18n="contact.info.phoneValue">+39 333 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3 data-i18n="contact.info.email">Email</h3>
+                            <p data-i18n="contact.info.emailValue">info@neurowebstudio.it</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3 data-i18n="contact.info.hours">Orari Lavorativi</h3>
+                            <p data-i18n="contact.info.hours1">Lun - Ven: 9:00 - 18:00</p>
+                            <p data-i18n="contact.info.hours2">Sabato: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3 data-i18n="contact.info.social">Seguici sui Social</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" data-i18n-placeholder="contact.form.name" placeholder="Il tuo nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" data-i18n-placeholder="contact.form.email" placeholder="La tua email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" class="form-control" data-i18n-placeholder="contact.form.phone" placeholder="Il tuo telefono">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected data-i18n="contact.form.serviceOptions.choose">Seleziona servizio</option>
+                                <option value="sito-web" data-i18n="contact.form.serviceOptions.website">Sito Web Aziendale</option>
+                                <option value="ecommerce" data-i18n="contact.form.serviceOptions.ecommerce">E-commerce</option>
+                                <option value="landing-page" data-i18n="contact.form.serviceOptions.landing">Landing Page</option>
+                                <option value="seo" data-i18n="contact.form.serviceOptions.seo">SEO</option>
+                                <option value="altro" data-i18n="contact.form.serviceOptions.other">Altro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" data-i18n-placeholder="contact.form.message" placeholder="Descrivi il tuo progetto..." rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" required>
+                                <span data-i18n="contact.form.privacy">Accetto l'informativa sulla privacy</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn" data-i18n="contact.form.submit">Invia Richiesta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 data-i18n="cart.title">Il Tuo Ordine</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <h4 data-i18n="cart.total">Totale: <span id="cart-total-price">€ 0</span></h4>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-outline" id="continue-shopping" data-i18n="cart.continue">Continua a Scegliere</button>
+                <button class="btn" id="checkout-btn" data-i18n="cart.checkout">Procedi al Pagamento</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#home" class="footer-logo">Neuro<span>Web</span>Studio</a>
+                    <p data-i18n="footer.description">Innovazione digitale, design neuroscientifico e tecnologie avanzate per il tuo successo online.</p>
+                    
+                    <div class="payment-methods">
+                        <h4 data-i18n="footer.payment">Pagamenti Sicuri</h4>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-stripe"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3 data-i18n="footer.categories.services">Servizi</h3>
+                    <ul>
+                        <li><a href="servizi.html#sito-aziendale" data-i18n="footer.categories.servicesItems.0">Siti Web Aziendali</a></li>
+                        <li><a href="servizi.html#ecommerce-base" data-i18n="footer.categories.servicesItems.1">E-commerce</a></li>
+                        <li><a href="servizi.html#landing-page" data-i18n="footer.categories.servicesItems.2">Landing Page</a></li>
+                        <li><a href="servizi.html#seo" data-i18n="footer.categories.servicesItems.3">SEO Avanzato</a></li>
+                        <li><a href="servizi.html#app-mobile" data-i18n="footer.categories.servicesItems.4">App Mobile</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3 data-i18n="footer.categories.company">Azienda</h3>
+                    <ul>
+                        <li><a href="#about" data-i18n="footer.categories.companyItems.0">Chi Siamo</a></li>
+                        <li><a href="#portfolio" data-i18n="footer.categories.companyItems.1">Portfolio</a></li>
+                        <li><a href="#contact" data-i18n="footer.categories.companyItems.2">Contatti</a></li>
+                        <li><a href="#" data-i18n="footer.categories.companyItems.3">Blog</a></li>
+                        <li><a href="#" data-i18n="footer.categories.companyItems.4">Lavora con Noi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column footer-links">
+                    <h3 data-i18n="footer.categories.support">Supporto</h3>
+                    <ul>
+                        <li><a href="#" data-i18n="footer.categories.supportItems.0">FAQ</a></li>
+                        <li><a href="#" data-i18n="footer.categories.supportItems.1">Documentazione</a></li>
+                        <li><a href="#" data-i18n="footer.categories.supportItems.2">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer.categories.supportItems.3">Termini di Servizio</a></li>
+                        <li><a href="#" data-i18n="footer.categories.supportItems.4">Supporto Tecnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p data-i18n="footer.copyright">&copy; 2023 NeuroWeb Studio. Tutti i diritti riservati. P.IVA: 12345678901</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>
